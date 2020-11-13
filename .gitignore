@@ -1,0 +1,12 @@
+*a.out
+*.dat
+*.x
+*~
+*txt
+cachegrind.out.*
+callgrind.out.*
+*.pdf
+*gnu
+*.out
+*.data
+gmon.*
