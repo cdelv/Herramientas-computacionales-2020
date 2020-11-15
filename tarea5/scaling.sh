@@ -1,7 +1,7 @@
 #!/bin/bash 
 
 echo "Starting strong scaling with system size: "
-for NTH in 1 2 3 4 5 6 7 8 16 32; do
+for NTH in 1 2 3 4 5 6 7 8 ; do
     echo -n "$NTH  ";
     ./a.out $NTH | head -n 1;
 done > scaling-$NS.txt
