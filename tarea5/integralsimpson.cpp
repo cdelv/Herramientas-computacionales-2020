@@ -14,7 +14,7 @@ int main(int argc, char **argv)
   std::cout.precision(15);
   std::cout.setf(std::ios::scientific);
   
-  double a=0, b=10, N=1000000;
+  double a=0, b=100, N=100000000;
 
   int nThreads=std::atoi(argv[1]);
 
