@@ -14,12 +14,12 @@ int main(int argc, char **argv)
   std::cout.precision(15);
   std::cout.setf(std::ios::scientific);
   
-  double a=0, b=10, N=100000000;
+  double a=0, b=10, N=1000000;
 
   int nThreads=std::atoi(argv[1]);
 
   auto start = std::chrono::steady_clock::now();
-   simpson(a,b, N, nThreads);
+   simpson(a,b, N, nThreads);//<<std::endl;
   auto end = std::chrono::steady_clock::now();
   print_elapsed(start, end);
   
@@ -39,7 +39,7 @@ double simpson (double a, double b, int n, int nThreads)
   #pragma omp parallel for num_threads(nThreads) reduction(+: suma)
   for(int ii=0; ii<=n; ii++){
     x=a+h*ii;
-    
+
     if(ii==0 || ii==n){
       suma+=fun(x);
     }
