@@ -3,7 +3,7 @@ NS=1000000
 
 echo "Starting strong scaling with system size: $NS"
 
-for NTH in 1 2 3 4 5 6 7 8 16 32; do
+for NTH in 1 2 3 4 5 6 7 8 ; do
 	echo -n "$NTH  ";
 	./integration.x 0 10 $NS $NTH | head -n 1;
 done > scaling_$NS.txt
