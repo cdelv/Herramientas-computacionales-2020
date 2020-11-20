@@ -1,6 +1,6 @@
 mpic++ integral_MPI.cpp
 
-for nproc in {1..6}; do
+for nproc in {1..8}; do
  
 	echo -n "$nproc  ";
 	mpirun -np $nproc --oversubscribe ./a.out | tail -n 1;

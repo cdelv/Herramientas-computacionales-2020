@@ -10,7 +10,7 @@ int main(int argc, char **argv)
     MPI_Init(&argc, &argv);
     int pid = 0, nproc = 0;
 
-    const int N = 6000000;
+    const int N = 8400000;
 
     MPI_Comm_rank(MPI_COMM_WORLD, &pid);
     MPI_Comm_size(MPI_COMM_WORLD, &nproc);
