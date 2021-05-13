@@ -12,4 +12,4 @@ Julián Jiménez
 
 # Repositorio:
 ---
-https://github.com/HerrComp/proyecto-intermedio-jimenezj-gomezf-vargasa-delvallec.git
+https://github.com/jujimenezp/herrcomp.git
