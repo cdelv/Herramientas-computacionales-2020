@@ -12,7 +12,7 @@ Julián Jiménez
 
 # Repositorio:
 ---
-https://github.com/HerrComp/proyecto-final-jimenezj-gomezf-vargasa-delvallec-1.git
+https://github.com/fegomezl/P_F_HC.git
 
 ## Uso:
 
